@@ -1,14 +1,10 @@
-# Signalgrid Zabbix
+# Signalgrid Zabbix Plugin
 
-Send Zabbix alerts to Signalgrid push notifications.
-
-This repo contains one file:
-
-- `media_signalgrid.xml`
+This repository provides a Zabbix webhook media type that forwards Zabbix alerts and event notifications to Signalgrid for delivery as mobile push notifications.
 
 ## What you need
 
-- Zabbix with **Webhook** media types (this file is exported for Zabbix 7.0)
+- Zabbix with **Webhook** media types
 - A Signalgrid account
 - Your Signalgrid **Client Key** and **Channel** token/ID
 
