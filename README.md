@@ -1,4 +1,5 @@
 # Signalgrid Zabbix Plugin
+[![Zabbix](https://img.shields.io/badge/Zabbix-7.0-red)](https://www.zabbix.com/)
 
 This repository provides a Zabbix webhook media type that forwards Zabbix alerts and event notifications to Signalgrid for delivery as mobile push notifications.
 
