@@ -57,3 +57,6 @@ If the severity is 5+, the webhook sends it as a critical notification, which ca
 - **client_key missing** → put your Client Key in the user media **Send to**
 - **channel missing** → set `{$SIGNALGRID_CHANNEL}`
 - **not sending** → check outbound HTTPS from Zabbix + your key/channel values
+
+### For more information
+[signalgrid.co](https://signalgrid.co)
