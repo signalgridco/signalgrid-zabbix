@@ -41,19 +41,6 @@ Where you put it is up to you:
 1. Go to **Alerts → Actions**
 2. Add an operation that sends a message to that user (or user group)
 
-## How it sends
-
-It POSTs to:
-
-- `https://api.signalgrid.co/v1/push`
-
-It sends:
-
-- `client_key` (from the user media “Send to”)
-- `channel` (from `{$SIGNALGRID_CHANNEL}`)
-- `title`, `body`
-- `type`, `critical`
-
 ## Severity mapping
 
 - Recovery (`{EVENT.VALUE} == 0`) → `SUCCESS`
@@ -62,6 +49,8 @@ It sends:
   - severity 4 → `CRIT`
   - severity 2–3 → `WARN`
   - severity 0–1 → `INFO`
+ 
+If the severity is 5+, the webhook sends it as a critical notification, which can bypass Do Not Disturb and shows up as a Critical Alert.
 
 ## Troubleshooting
 
