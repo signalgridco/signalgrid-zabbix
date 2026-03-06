@@ -89,7 +89,6 @@ catch (error) {
 }
 ]]></script>
             <process_tags>YES</process_tags>
-            <show_event_menu>YES</show_event_menu>
             <description>Signalgrid Push Notifications.&#13;
 &#13;
 1. Add your Client Key to the User Media "Send to" field.&#13;
